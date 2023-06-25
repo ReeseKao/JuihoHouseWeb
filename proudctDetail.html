@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="zh-TW" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <!-- SEO -->
+    <!-- 網站內容 -->
+    <meta name="description" content="玖荷家 提供下午茶,可麗露,水果蛋糕,手工餅乾等各式健康甜點，讓你線上立即訂購，享受美味無負擔">
+    <meta name="keywords" content="玖荷家,下午茶,可麗露,水果蛋糕,蛋糕,手作餅乾,天然,健康,減糖,無負擔">
+    <!-- 社群媒體分享 -->
+    <meta property="og:locale" content="zh-hant-tw" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="玖荷家 甜點專賣，讓你享受美食無負擔。">
+    <meta property="og:description" content="玖荷家 提供下午茶,可麗露,水果蛋糕,手工餅乾等各式健康甜點，讓你線上立即訂購，享受美味無負擔" />
+    <meta property="og:site_name" content="玖荷家 低卡甜點專賣網">
+    <meta property="og:url" content="http://yourURL">
+    <!-- 圖片一定要是網址，不可是電腦路徑 -->
+    <meta property="og:image" content="#">
+    <title itemprop="name">JuihoHouse玖荷家～甜點專賣</title>
+    <!-- logoicon圖 -->
+    <link rel="icon" href="../images/logo_icon.ico" type="image/icontype">
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<link rel="stylesheet" href="https://raw.githubusercontent.com/greenwoodents/quickbeam.js/master/demo/css/demo.css">
+
+    <!-- 自訂的CSS放最下面，權重最重 -->
+    <link rel="stylesheet" href="./css/compo.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/productDetail.css">
+
+
+</head>
+
+<body class="loading" data-barba="wrapper">
+
+    <!-- Loading -->
+    <div id="pageLoader">
+        <div></div>
+        <span class="products_title"><img src="/images/cook.gif" alt=""></span>
+    </div>
+
+<!-- 選單區 -->
+
+<header id="header" class="">
+    <div class="eslogo">
+        <a href="index.html">
+            <img src="./images/logo.svg" alt="logo">
+        </a>
+    </div>
+    <nav id="top-bar">
+        <!-- 左側選單 -->
+        <div class="menu-left">
+            <ul class="dropdown-menu">
+                <li><a href="./index.html" class="menu-item">首頁</a></li>
+                <li><a href="./news.html" class="menu-item">最新消息</a></li>
+                <li><a href="./proudct.html" class="menu-item">商品總覽</a>
+                    <ul>
+                        <li><a href="./proudct.html">所有商品</a></li>
+                        <li><a href="./productLimit.html">季節限定</a></li>
+                        <li><a href="./productBox.html">禮盒首選</a></li>
+                        <li><a href="./productCannele.html">獨創露露</a></li>
+                        <li><a href="./productCakes.html">香甜蛋糕</a></li>
+                    </ul>
+                </li>
+                <li><a href="./about.html" class="menu-item">關於玖荷家</a></li>
+                <li><a href="./dSchool.html" class="menu-item">甜點小學堂</a></li>
+            </ul>
+        </div>
+
+
+        <div class="menu-right">
+            <!-- 會員區 -->
+            <div class="right-bar">
+                <!-- 搜尋列 -->
+                <form class="search-container">
+                    
+                    <input type="submit" id="search-submit" class="fa-solid fa-magnifying-glass" />
+                    <input id="search-box" type="text" class="search-box" name="q" />
+                    <label for="search-box">
+                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25 25L19.9332 19.9332M19.9332 19.9332C20.7999 19.0665 21.4874 18.0375 21.9564 16.9051C22.4255 15.7727 22.6669 14.559 22.6669 13.3333C22.6669 12.1076 22.4255 10.8939 21.9564 9.76153C21.4874 8.62913 20.7999 7.6002 19.9332 6.7335C19.0665 5.8668 18.0375 5.17929 16.9051 4.71024C15.7727 4.24118 14.559 3.99976 13.3333 3.99976C12.1076 3.99976 10.8939 4.24118 9.76153 4.71024C8.62912 5.17929 7.6002 5.8668 6.7335 6.7335C4.98311 8.48388 3.99976 10.8579 3.99976 13.3333C3.99976 15.8088 4.98311 18.1828 6.7335 19.9332C8.48388 21.6836 10.8579 22.6669 13.3333 22.6669C15.8087 22.6669 18.1828 21.6836 19.9332 19.9332Z" stroke="#BC6161" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </label>
+
+                </form>
+                <ul>
+
+                    <li><a href="member.html"><img src="../images/icons/user.svg" alt="會員管理按鈕"></a></li>
+                    <li><a href="shoppingCart.html"><img src="../images/icons/cart.svg" alt="購物車按鈕"></a></li>
+                </ul>
+            </div>
+            <!-- 漢堡按鈕 -->
+
+
+            <div id="navWave">
+                <button class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <nav class="navigation">
+                    <ul class="nav-menu">
+                        <li><a href="news.html">最新消息</a></li>
+                        <li><a href="proudct.html">商品總覽</a></li>
+                        <li><a href="about.html">關於我們</a></li>
+                        <li><a href="dSchool.html">甜點小學堂</a></li>
+                        <li><a href="contactUs.html">聯絡我們</a></li>
+                    </ul>
+                    <hr>
+                    <ul class="member">
+
+                        <li><a href="member.html"><img src="/images/icons/nav_user.svg" alt="member">會員中心</img></a></li>
+                        <li><a href="shoppingCart.html"><img src="/images/icons/nav_cart.svg" alt="shoppingCart">購物車</img></a></li>
+
+                    </ul>
+                    <hr>
+                    <ul class="icon">
+                        <li><a href="https://www.facebook.com/JIUHOHOUSE/"><img src="/images/icons/nav_facebook.svg" alt="facebook"></a></li>
+                        <li><a href="https://www.instagram.com/jiuho_house/"><img src="/images/icons/nav_instagram.svg" alt="instagram"></a></li>
+                        <li><a href="https://line.me/R/ti/p/@123idpko"><img src="/images/icons/nav_line.svg" alt="line"></a></li>
+                        <li><a href="https://goo.gl/maps/bmFkMjtjk6P7WpR57"><img src="/images/icons/nav_map.svg" alt="googlemap"></a></li>
+                    </ul>
+                    <!-- <ul class="menu">
+            <li><a href="#">會員登入</a></li>
+        </ul> -->
+                </nav>
+            </div>
+        </div>
+
+    </nav>
+
+    </div>
+    <div class="sm-side-bar">
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+        <a href="https://line.me"><i class="fab fa-line"></i></a>
+        <a href="https://www.google.com/maps"><i class="fas fa-map-marker-alt"></i></a>
+      </div>
+      
+</header>
+
+<main>
+    <section aria-label="Main content" role="main" class="product-detail">
+        <div itemscope itemtype="http://schema.org/Product">
+          <meta itemprop="url" content="http://html-koder-test.myshopify.com/products/tommy-hilfiger-t-shirt-new-york">
+          <meta itemprop="image" content="//cdn.shopify.com/s/files/1/1047/6452/products/product_grande.png?v=1446769025">
+          <div class="shadow">
+            <div class="_cont detail-top">
+              <div class="cols">
+                <div class="left-col">
+                  <div class="thumbs">
+                    <a class="thumb-image active" href="//cdn.shopify.com/s/files/1/1047/6452/products/product_1024x1024.png?v=1446769025" data-index="0">
+                      <span><img src="//cdn.shopify.com/s/files/1/1047/6452/products/product_150x150.png?v=1446769025" alt="Tommy Hilfiger T-Shirt New York"></span>
+                    </a>
+                    <a class="thumb-image" href="//cdn.shopify.com/s/files/1/1047/6452/products/tricko1_1024x1024.jpg?v=1447104179" data-index="1">
+                      <span><img src="//cdn.shopify.com/s/files/1/1047/6452/products/tricko1_150x150.jpg?v=1447104179" alt="Tommy Hilfiger T-Shirt New York"></span>
+                    </a>
+                    <a class="thumb-image" href="//cdn.shopify.com/s/files/1/1047/6452/products/tricko2_1024x1024.jpg?v=1447104180" data-index="2">
+                      <span><img src="//cdn.shopify.com/s/files/1/1047/6452/products/tricko2_150x150.jpg?v=1447104180" alt="Tommy Hilfiger T-Shirt New York"></span>
+                    </a>
+                    <a class="thumb-image" href="//cdn.shopify.com/s/files/1/1047/6452/products/tricko3_1024x1024.jpg?v=1447104182" data-index="3">
+                      <span><img src="//cdn.shopify.com/s/files/1/1047/6452/products/tricko3_150x150.jpg?v=1447104182" alt="Tommy Hilfiger T-Shirt New York"></span>
+                    </a>
+                  </div>
+                  <div class="big">
+                    <span id="big-image" class="img" quickbeam="image" style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/product_1024x1024.png?v=1446769025')" data-src="//cdn.shopify.com/s/files/1/1047/6452/products/product_1024x1024.png?v=1446769025"></span>
+                    <div id="banner-gallery" class="swipe">
+                      <div class="swipe-wrap">
+                        <div style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/product_large.png?v=1446769025')"></div>
+                        <div style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko1_large.jpg?v=1447104179')"></div>
+                        <div style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko2_large.jpg?v=1447104180')"></div>
+                        <div style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko3_large.jpg?v=1447104182')"></div>
+                      </div>
+                    </div>
+                    <!-- <div class="detail-socials">
+                      <div class="social-sharing" data-permalink="http://html-koder-test.myshopify.com/products/tommy-hilfiger-t-shirt-new-york">
+                        <a target="_blank"  class="share-facebook" title="Share"></a>
+                        <a target="_blank"  class="share-twitter" title="Tweet"></a>
+                        <a target="_blank"  class="share-pinterest" title="Pin it"></a>
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+                <div class="right-col">
+                  <h1 itemprop="name">Tony Hunfinger T-Shirt New York</h1>
+                  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <meta itemprop="priceCurrency" content="USD">
+                    <link itemprop="availability" href="http://schema.org/InStock">
+                    <div class="price-shipping">
+                      <div class="price" id="price-preview" quickbeam="price" quickbeam-price="800">
+                        $800.00
+                      </div>
+                      <a>Free shipping</a>
+                    </div>
+                    <div class="swatches">
+                      <div class="swatch clearfix" data-option-index="0">
+                        <div class="header">Size</div>
+                        <div data-value="M" class="swatch-element plain m available">
+                          <input id="swatch-0-m" type="radio" name="option-0" value="M" checked  />
+                          <label for="swatch-0-m">
+                            M
+                            <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                          </label>
+                        </div>
+                        <div data-value="L" class="swatch-element plain l available">
+                          <input id="swatch-0-l" type="radio" name="option-0" value="L"  />
+                          <label for="swatch-0-l">
+                            L
+                            <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                          </label>
+                        </div>
+                        <div data-value="XL" class="swatch-element plain xl available">
+                          <input id="swatch-0-xl" type="radio" name="option-0" value="XL"  />
+                          <label for="swatch-0-xl">
+                            XL
+                            <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                          </label>
+                        </div>
+                        <div data-value="XXL" class="swatch-element plain xxl available">
+                          <input id="swatch-0-xxl" type="radio" name="option-0" value="XXL"  />
+                          <label for="swatch-0-xxl">
+                            XXL
+                            <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                          </label>
+                        </div>
+                      </div>
+                      <div class="swatch clearfix" data-option-index="1">
+                        <div class="header">Color</div>
+                        <div data-value="Blue" class="swatch-element color blue available">
+                          <div class="tooltip">Blue</div>
+                          <input quickbeam="color" id="swatch-1-blue" type="radio" name="option-1" value="Blue" checked  />
+                          <label for="swatch-1-blue" style="border-color: blue;">
+                            <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                            <span style="background-color: blue;"></span>
+                          </label>
+                        </div>
+                        <div data-value="Red" class="swatch-element color red available">
+                          <div class="tooltip">Red</div>
+                          <input quickbeam="color" id="swatch-1-red" type="radio" name="option-1" value="Red"  />
+                          <label for="swatch-1-red" style="border-color: red;">
+                            <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                            <span style="background-color: red;"></span>
+                          </label>
+                        </div>
+                        <div data-value="Yellow" class="swatch-element color yellow available">
+                          <div class="tooltip">Yellow</div>
+                          <input quickbeam="color" id="swatch-1-yellow" type="radio" name="option-1" value="Yellow"  />
+                          <label for="swatch-1-yellow" style="border-color: yellow;">
+                            <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886" />
+                            <span style="background-color: yellow;"></span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="guide">
+                        <a>Size guide</a>
+                      </div>
+                    </div>
+                    <!-- <form method="post" enctype="multipart/form-data" id="AddToCartForm"> -->
+                    <form id="AddToCartForm">
+                      <select name="id" id="productSelect" quickbeam="product" class="product-single__variants">
+                        <option  selected="selected"  data-sku="" value="7924994501">
+                          M / Blue - $800.00 USD
+                        </option>
+                        <option  data-sku="" value="7924995077">
+                          M / Red - $850.00 USD
+                        </option>
+                        <option  data-sku="" value="7924994437">
+                          L / Blue - $850.00 USD
+                        </option>
+                        <option  data-sku="" value="7924994693">
+                          L / Yellow - $850.00 USD
+                        </option>
+                        <option  data-sku="" value="7924995013">
+                          L / Red - $850.00 USD
+                        </option>
+                        <option  data-sku="" value="7924994373">
+                          XL / Blue - $900.00 USD
+                        </option>
+                        <option  data-sku="" value="7924994629">
+                          XL / Yellow - $850.00 USD
+                        </option>
+                        <option  data-sku="" value="7924830021">
+                          XXL / Blue - $950.00 USD
+                        </option>
+                        <option  data-sku="" value="7924994885">
+                          XXL / Red - $850.00 USD
+                        </option>
+                      </select>
+                      <div class="btn-and-quantity-wrap">
+                        <div class="btn-and-quantity">
+                          <div class="spinner">
+                            <span class="btn minus" data-id="2721888517"></span>
+                            <input type="text" id="updates_2721888517" name="quantity" value="1" class="quantity-selector">
+                            <input type="hidden" id="product_id" name="product_id" value="2721888517">
+                            <span class="q">Qty.</span>
+                            <span class="btn plus" data-id="2721888517"></span>
+                          </div>
+                          <div id="AddToCart" quickbeam="add-to-cart">
+                            <span id="AddToCartText">Add to Cart</span>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="tabs">
+                      <div class="tab-labels">
+                        <span data-id="1" class="active">Info</span>
+                        <span data-id="2">Brand</span>
+                      </div>
+                      <div class="tab-slides">
+                        <div id="tab-slide-1" itemprop="description"  class="slide active">
+                          We open source it for you https://github.com/greenwoodents/quickbeam.js if you want to use it on your ecommerce.
+                        </div>
+                        <div id="tab-slide-2" class="slide">
+                          Tony Hunfinger
+                        </div>
+                      </div>
+                    </div>
+                    <div class="social-sharing-btn-wrapper">
+                      <span id="social_sharing_btn">Share</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <aside class="related">
+            <div class="_cont">
+              <h2>You might also like</h2>
+              <div class="collection-list cols-4" id="collection-list" data-products-per-page="4">
+                <a class="product-box">
+                  <span class="img">
+                    <span style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko1_70d2887b-ec6a-4bcb-a93b-7fd1783e6445_grande.jpg?v=1447530130')" class="i first"></span>
+                    <span class="i second" style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/product_030f9fc5-f253-4dca-a43a-fe2b719d0704_grande.png?v=1447530130')"></span>
+                  </span>
+                  <span class="text">
+                    <strong>Tony Hunfinger T-Shirt New York 2</strong>
+                    <span>
+                      From $800.00
+                    </span>
+                    <div class="variants">
+                      <div class="variant">
+                        <div class="var m available">
+                          <div class="t">M</div>
+                        </div>
+                        <div class="var l available">
+                          <div class="t">L</div>
+                        </div>
+                        <div class="var xl available">
+                          <div class="t">XL</div>
+                        </div>
+                        <div class="var xxl available">
+                          <div class="t">XXL</div>
+                        </div>
+                      </div>
+                      <div class="variant">
+                        <div class="var color blue available">
+                          <div class="c" style="background-color: blue;"></div>
+                        </div>
+                        <div class="var color red available">
+                          <div class="c" style="background-color: red;"></div>
+                        </div>
+                        <div class="var color yellow available">
+                          <div class="c" style="background-color: yellow;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </a>
+                <a class="product-box">
+                  <span class="img">
+                    <span style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko2_357767df-d7ff-4b58-b705-edde76bb32b7_grande.jpg?v=1447530150')" class="i first"></span>
+                    <span class="i second" style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko1_613d5776-ea61-4f9b-abef-0ce847c63a67_grande.jpg?v=1447530150')"></span>
+                  </span>
+                  <span class="text">
+                    <strong>Tony Hunfinger T-Shirt New York 3</strong>
+                    <span>
+                      From $800.00
+                    </span>
+                    <div class="variants">
+                      <div class="variant">
+                        <div class="var m available">
+                          <div class="t">M</div>
+                        </div>
+                        <div class="var l available">
+                          <div class="t">L</div>
+                        </div>
+                        <div class="var xl available">
+                          <div class="t">XL</div>
+                        </div>
+                        <div class="var xxl available">
+                          <div class="t">XXL</div>
+                        </div>
+                      </div>
+                      <div class="variant">
+                        <div class="var color blue available">
+                          <div class="c" style="background-color: blue;"></div>
+                        </div>
+                        <div class="var color red available">
+                          <div class="c" style="background-color: red;"></div>
+                        </div>
+                        <div class="var color yellow available">
+                          <div class="c" style="background-color: yellow;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </a>
+                <a href="/collections/men/products/copy-of-copy-of-copy-of-tommy-hilfiger-t-shirt-new-york-4" class="product-box">
+                  <span class="img">
+                    <span style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko3_0e98498a-123c-4305-9d94-d8280bb46416_grande.jpg?v=1447530164')" class="i first"></span>
+                    <span class="i second" style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko2_6c949188-dba0-4789-9434-c0821b92f3f4_grande.jpg?v=1447530164')"></span>
+                  </span>
+                  <span class="text">
+                    <strong>Tony Hunfinger T-Shirt New York 4</strong>
+                    <span>
+                      From $800.00
+                    </span>
+                    <div class="variants">
+                      <div class="variant">
+                        <div class="var m available">
+                          <div class="t">M</div>
+                        </div>
+                        <div class="var l available">
+                          <div class="t">L</div>
+                        </div>
+                        <div class="var xl available">
+                          <div class="t">XL</div>
+                        </div>
+                        <div class="var xxl available">
+                          <div class="t">XXL</div>
+                        </div>
+                      </div>
+                      <div class="variant">
+                        <div class="var color blue available">
+                          <div class="c" style="background-color: blue;"></div>
+                        </div>
+                        <div class="var color red available">
+                          <div class="c" style="background-color: red;"></div>
+                        </div>
+                        <div class="var color yellow available">
+                          <div class="c" style="background-color: yellow;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </a>
+                <a class="product-box">
+                  <span class="img">
+                    <span style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/product_7d606126-1b60-4738-99b3-062810f2db8b_grande.png?v=1447530674')" class="i first"></span>
+                    <span class="i second" style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko3_fd08d231-654c-4304-81b2-9191e6fd141e_grande.jpg?v=1447530674')"></span>
+                  </span>
+                  <span class="text">
+                    <strong>Tony Hunfinger T-Shirt New York 5</strong>
+                    <span>
+                      From $800.00
+                    </span>
+                    <div class="variants">
+                      <div class="variant">
+                        <div class="var m available">
+                          <div class="t">M</div>
+                        </div>
+                        <div class="var l available">
+                          <div class="t">L</div>
+                        </div>
+                        <div class="var xl available">
+                          <div class="t">XL</div>
+                        </div>
+                        <div class="var xxl available">
+                          <div class="t">XXL</div>
+                        </div>
+                      </div>
+                      <div class="variant">
+                        <div class="var color blue available">
+                          <div class="c" style="background-color: blue;"></div>
+                        </div>
+                        <div class="var color red available">
+                          <div class="c" style="background-color: red;"></div>
+                        </div>
+                        <div class="var color yellow available">
+                          <div class="c" style="background-color: yellow;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </a>
+                <a class="product-box hidden">
+                  <span class="img">
+                    <span style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko1_bba77d82-7f85-47af-9a45-f4700bcc04ad_grande.jpg?v=1447530689')" class="i first"></span>
+                    <span class="i second" style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/product_f065e961-d296-48a8-8a67-a3532200e257_grande.png?v=1447530689')"></span>
+                  </span>
+                  <span class="text">
+                    <strong>Tony Hunfinger T-Shirt New York 6</strong>
+                    <span>
+                      From $800.00
+                    </span>
+                    <div class="variants">
+                      <div class="variant">
+                        <div class="var m available">
+                          <div class="t">M</div>
+                        </div>
+                        <div class="var l available">
+                          <div class="t">L</div>
+                        </div>
+                        <div class="var xl available">
+                          <div class="t">XL</div>
+                        </div>
+                        <div class="var xxl available">
+                          <div class="t">XXL</div>
+                        </div>
+                      </div>
+                      <div class="variant">
+                        <div class="var color blue available">
+                          <div class="c" style="background-color: blue;"></div>
+                        </div>
+                        <div class="var color red available">
+                          <div class="c" style="background-color: red;"></div>
+                        </div>
+                        <div class="var color yellow available">
+                          <div class="c" style="background-color: yellow;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </a>
+                <a class="product-box hidden">
+                  <span class="img">
+                    <span style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko2_bf59c7f2-7c1f-4822-9494-6a984598a56c_grande.jpg?v=1447530706')" class="i first"></span>
+                    <span class="i second" style="background-image: url('//cdn.shopify.com/s/files/1/1047/6452/products/tricko1_c6fa0fc1-99a0-4bd0-a1d8-0270127977fc_grande.jpg?v=1447530706')"></span>
+                  </span>
+                  <span class="text">
+                    <strong>Tony Hunfinger T-Shirt New York 7</strong>
+                    <span>
+                      From $800.00
+                    </span>
+                    <div class="variants">
+                      <div class="variant">
+                        <div class="var m available">
+                          <div class="t">M</div>
+                        </div>
+                        <div class="var l available">
+                          <div class="t">L</div>
+                        </div>
+                        <div class="var xl available">
+                          <div class="t">XL</div>
+                        </div>
+                        <div class="var xxl available">
+                          <div class="t">XXL</div>
+                        </div>
+                      </div>
+                      <div class="variant">
+                        <div class="var color blue available">
+                          <div class="c" style="background-color: blue;"></div>
+                        </div>
+                        <div class="var color red available">
+                          <div class="c" style="background-color: red;"></div>
+                        </div>
+                        <div class="var color yellow available">
+                          <div class="c" style="background-color: yellow;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </a>
+              </div>
+              <div class="more-products" id="more-products-wrap">
+                <span id="more-products" data-rows_per_page="1">More products</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      
+      </section>
+     
+      <!-- Quickbeam cart-->
+      
+      <div id="quick-cart" quickbeam="cart">
+        <a id="quick-cart-pay" quickbeam="cart-pay" class="cart-ico">
+          <span>
+            <strong class="quick-cart-text">Pay<br></strong>
+            <span id="quick-cart-price">0</span>
+            <span id="quick-cart-pay-total-count">0</span>
+          </span>
+        </a>
+      </div>
+      
+      <!-- Quickbeam cart end -->
+</main>
+
+
+            <div class="cursor"></div>
+            <div class="cursor cursor2"></div>
+
+            <footer data-scroll-id="footer" data-scroll data-scroll-section>
+                <div class="ft-logo">
+                    <a href="index.html"><img src="./images/logo.svg" alt=""></a>
+                </div>
+                <div class="ft-rwd">
+                    <div class="store_info">
+                        <ul>
+                            <li><a href="tel:0222751691">(02)2275-1691</a></li>
+                            <li><a href="#">平日：13:00-20:00 ／
+                                    假日：12:00-20:00
+                                    (週二、三公休)</a></li>
+                            <li><a href="https://goo.gl/maps/bmFkMjtjk6P7WpR57" target="_blank">220新北市板橋區大觀路二段154號1樓</a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        <p>©2023/04_JiuhoHouse_Designed by ACi</p>
+                    </div>
+                </div>
+                <div class="follow">
+                    <div>
+                        <h3>FollowUs</h3>
+                    </div>
+                    <hr>
+                    <div class="social_media">
+                        <a href="https://www.instagram.com/jiuho_house/"><img src="../images/icons/ig.svg" alt="instagram"></a>
+                        <a href="https://www.facebook.com/JIUHOHOUSE/"><img src="../images/icons/facebook.svg" alt="facebook"></a>
+                        <a href="https://line.me/R/ti/p/@123idpko"><img src="../images/icons/line.svg" alt="line"></a>
+                        <a href="https://goo.gl/maps/bmFkMjtjk6P7WpR57"><img src="../images/icons/gmap.svg" alt="googlemap"></a>
+                    </div>
+                </div>
+            </footer>
+        </div><!-- scroll -->
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous">
+        </script>
+        
+        <!-- jquery-smoove -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+        <script src='/test/test.js' type="text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- <script src="./js/api.js"></script> -->
+        <script src="./js/js.js" type="text/javascript"></script>
+        <script src="https://raw.githubusercontent.com/greenwoodents/quickbeam.js/master/dist/quickbeam.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+        <script src="./js/proudctDetail.js"></script>
+</body>
+
+</html>
+</div> <!-- router end -->
+<!-- WP Fastest Cache file was created in 0.15532994270325 seconds, on 09-05-23 11:31:30 -->
