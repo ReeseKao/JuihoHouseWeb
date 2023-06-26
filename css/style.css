@@ -808,4 +808,20 @@
 		margin: 0 auto;
 		overflow-x: auto;
 	}
+
+#comment .album {
+	display: none;
+}
+.banner-txt h1{
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+.banner-txt p{
+	margin: 20px 0;
+}
+.banner-txt a{
+	margin-top: 20px;
+	background-color: #FFF;
+	box-shadow: none;
+}
 }
