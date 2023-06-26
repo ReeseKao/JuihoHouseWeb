@@ -244,7 +244,7 @@ ul.dropdown-menu ul {
 	z-index: 99;
 	margin-left: 8%;
 	/* right: 0; */
-	top: 90%;
+	top: 98%;
 
 }
 ul.dropdown-menu ul li a {
@@ -596,17 +596,18 @@ footer li{
 }
 
 /* 平板 */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
 
 	/* 隐藏除了.navigation和.menu_right之外的元素 */
 	.eslogo{
+		bottom: 88%;
     left: 10%;
-    width: 3rem;
-    margin: 0 0 0 -1rem;
+    width: 5rem;
+    margin: 0 0 0 -4rem;
     z-index: 999999;
 
 	}
-	#topbar{
+	#top-bar{
 		width: 100%;
 		padding:30px 20px 50px;
 		margin: 0;
@@ -620,9 +621,31 @@ footer li{
 		justify-content: flex-end;
 	}
 	.navigation{
-		width: 30%;
+		width: 50%;
+		
+		margin-right: 20px;
 		height: 50vh;
 	}
+	.navigation .member ul{
+		display: block;
+		
+		
+	}
+	.navigation .member li{
+		display: block;
+		width: 100%;
+		
+	}
+	.navigation li {
+		text-align: center;
+		padding: 10px 0;
+	}
+	.navigation a {
+		
+		text-decoration: none;
+		padding: 10px 0;
+	}
+	
 	footer{
 		padding: 30px;
 	}
@@ -663,24 +686,32 @@ footer li{
 		height: 80px;
 		width: 80px;
 	}
-	
+	.sm-side-bar {
+
+		top: 35%;
+		
+	  }
   }
   /* 手機 */
   @media (max-width: 767px) {
 	.eslogo{
-		position: fixed;
-		top: 2%;
-		left: 14%;
-		width: 2.5rem;
-		margin: 0 0 0 -2rem;
-		z-index: 999999;
-	
-		}
-	
+	bottom: 85%;
+    left: 10%;
+    width: 5rem;
+    margin: 0 0 0 -1.5rem;
+    z-index: 999999;
 
+	}
+	.navigation{
+
+		height: 70vh;
+	}
+	.navigation ul:nth-child(1) li{
+		text-align: center;
+		padding: 10px 0;
+	}
 		footer{
-			height: 100%;
-			padding: 30px;
+			height: 400px;
 			flex-direction: column;
 		}
 
@@ -694,6 +725,12 @@ footer li{
 		.ft-logo img{
 			height: 50px;
 			width: 50px;
+		}
+		.navigation .icon li {
+			box-sizing: border-box;
+			width: 32px;
+			height: 32px;
+			margin: 0 10px;
 		}
 		
   }

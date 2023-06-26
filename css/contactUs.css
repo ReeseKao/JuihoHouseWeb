@@ -1,0 +1,101 @@
+main{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      margin: 20vh 0;
+      background-image: url(../images/bg/contactbg.svg);
+      background-size: cover;
+}
+.wrap-title{
+    text-align: center;
+}
+.wrap-title h3{
+    margin: 5px 0 10px;
+}
+.wrap-title p{
+    color: #999191;
+}
+#contact{
+    justify-content: center;
+    text-align: center;
+}
+.row{
+    justify-content: center;
+    margin: 0 0 20px;
+}
+.quick-link{
+    text-align: center;
+}
+
+.quick-link .btn{
+    margin: 20px 40px 0;
+    font-size: 28px;
+    text-decoration: none;
+    color: #999191;
+    background-color: #FFF;
+    border: none;
+    border-radius: 4px;
+}
+.quick-link a:nth-child(1):hover {
+	color: #C13584;
+  }
+  .quick-link a:nth-child(2):hover {
+	color: #0066ff;
+  }
+  .quick-link a:nth-child(3):hover {
+	color: #00B900;
+  }
+  .quick-link a:nth-child(4):hover {
+	color: #DB4437;
+  }
+.card{
+    width: 500px;
+    text-align: center;
+}
+.card-body h3{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.mb-3{
+    text-align: left;
+    color:#999191 ;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.card .btn { 
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #999191;
+    border-radius: 4px;
+    border: none;
+}
+
+/* 平板 */
+@media (max-width: 991px) {
+   main{
+    margin-bottom: 32vh;
+   }
+
+}
+@media (max-width: 767px) {
+    main{
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+       }
+    .card{
+        width: 300px;
+    }
+    .quick-link .btn{
+        margin: 20px 10px 0;
+        font-size: 28px;
+    }
+    .container small{
+        margin:0 10px;
+        font-size: 14px;
+    }
+}

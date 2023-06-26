@@ -14,7 +14,7 @@ body {
 main{
   margin-top: 20vh;
   justify-content: center;
-  background-image: url(../images/bg/aboutbg.svg);
+  background-image: url(./images/bg/aboutbg.svg);
   background-size: cover;
 }
 .info-line{
