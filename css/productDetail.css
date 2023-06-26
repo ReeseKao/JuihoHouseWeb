@@ -662,7 +662,7 @@
   }
   
   .product-detail {
-    margin-top: 20vh;
+    margin-top: 12vh;
     padding-top: 15px;
   }
   
@@ -1954,99 +1954,20 @@
       padding-top: 200px;
     }
   
-    footer {
-      padding: 21px 0 26px;
-    }
-  
-    footer .left,
-  footer .right {
-      float: none;
-      text-align: center;
-      width: 100%;
-    }
-  
-    footer .top .left {
-      font-size: 92.30769%;
-      line-height: 283.33333%;
-    }
-  
-    footer .top .left .phone {
-      -moz-background-size: auto 12px;
-      -o-background-size: auto 12px;
-      -webkit-background-size: auto 12px;
-      background-size: auto 12px;
-      background-position: left 12px;
-      margin-right: 25px;
-      padding-left: 16px;
-    }
-  
-    footer .top .left a.mail {
-      padding-left: 19px;
-    }
-  
-    footer .top .left a.mail:before {
-      -moz-background-size: 100%;
-      -o-background-size: 100%;
-      -webkit-background-size: 100%;
-      background-size: 100%;
-      height: 12px;
-      top: 12px;
-      width: 15px;
-    }
-  
-    footer .top .right {
-      margin-bottom: 7px;
-    }
-  
-    footer .top form input {
-      font-size: 92.30769%;
-      line-height: 141.66667%;
-      padding: 12px;
-      width: 224px;
-    }
-  
-    footer .top form button {
-      font-size: 92.30769%;
-      line-height: 141.66667%;
-      margin-right: 4px;
-    }
-  
-    footer .bottom {
-      font-size: 92.30769%;
-      line-height: 150%;
-      padding-top: 55px;
-    }
-  
-    footer .bottom .left nav li {
-      display: inline-block;
-      float: none;
-      margin-right: 36px;
-    }
-  
-    footer .socials {
-      font-size: 92.30769%;
-      line-height: 141.66667%;
-      bottom: auto;
-      margin-bottom: 24px;
-      position: static;
-      right: auto;
-      text-align: center;
-    }
-  
-    footer .socials li {
-      margin: 0 23px;
-    }
-  
-    footer .socials strong {
-      display: block;
-      margin-bottom: 12px;
-    }
-  
-    footer .socials .tw {
-      top: 14px;
-    }
+   
   }
   @media only screen and (max-width: 760px) {
+    .spinner {
+      -moz-border-radius: 25px;
+      -webkit-border-radius: 25px;
+      border-radius: 25px;
+      border: 1px solid #edeff2;
+      height: 50px;
+      margin-left: 10px;
+      padding: 15px 16px 0;
+      position: relative;
+    }
+    
     div.grid_info:after {
       content: "< 760px";
     }
