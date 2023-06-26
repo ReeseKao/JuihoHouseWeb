@@ -773,8 +773,39 @@
 }
 #comment {
 	width: 100%;
-	
+	overflow: hidden;
 	margin-top: 100px;
 }
 	
+}
+@media (max-width: 767px) {
+	.content{
+	margin: 10px;
+	}
+	.content .medium .left .wrap-photo {
+
+		margin-right: 5%;
+	}
+	.content .small .right .wrap-photo {
+
+		margin-left: 5%;
+	}
+	.carousel-nav{
+		z-index: 2;
+		transform:translateX(300%)
+	}
+	.content .vline {
+		
+		height: 100vh !important;
+	
+	}
+	.comment-section {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		border: 10px solid #FFF inset;
+		max-height: 600px;
+		margin: 0 auto;
+		overflow-x: auto;
+	}
 }
