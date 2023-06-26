@@ -1107,4 +1107,12 @@
 	.pd-info_btn{
 		display: block;
 	}
+	.detial-box{
+		display: none;
+	}
+	#pd_box_target{
+		transform: none;
+		height: 100vh;
+	}
+	
 }

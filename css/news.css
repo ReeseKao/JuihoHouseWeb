@@ -5,6 +5,8 @@ main {
     align-items: center;
     flex-direction: column;
     margin: 20vh 0;
+    background-image: url(../images/bg/news-bg.svg);
+    background-size: cover;
 }
 
 .wrap-title {
@@ -28,8 +30,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-
+.news_box{
+    background-color: #fff;
+}
 .news_box_f {
     height: auto;
     width: 45%;
@@ -37,6 +42,7 @@ main {
     margin: 20px;
     border-radius: 50px 0 50px 0;
     box-shadow: 0px 0px 10px rgba(222, 222, 222);
+    background-color: #fff;
     box-sizing: border-box;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;

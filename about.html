@@ -54,91 +54,103 @@
     <span class="products_title"><img src="/images/cook.gif" alt=""></span>
   </div>
 
-  <header id="header" class="scroll">
+  <header id="header" class="">
     <div class="eslogo">
-      <a href="#">
-        <img src="../images/logo.svg" alt="logo">
-      </a>
+        <a href="index.html">
+            <img src="./images/logo.svg" alt="logo">
+        </a>
     </div>
-    <nav id="top_bar">
-      <!-- 左側選單 -->
-      <div class="menu_left">
-        <ul class="drop_down_menu">
-          <li><a href="#" class="menu_item">首頁</a></li>
-          <li><a href="#" class="menu_item">最新消息</a></li>
-          <li><a href="proudct.html" class="menu_item">商品總覽</a>
-            <ul>
-              <li><a href="proudct.html">所有商品</a></li>
-              <li><a href="#">季節限定</a></li>
-              <li><a href="#">禮盒首選</a></li>
-              <li><a href="#">獨創露露</a></li>
-              <li><a href="#">香甜蛋糕</a></li>
+    <nav id="top-bar">
+        <!-- 左側選單 -->
+        <div class="menu-left">
+            <ul class="dropdown-menu">
+                <li><a href="./index.html" class="menu-item">首頁</a></li>
+                <li><a href="./news.html" class="menu-item">最新消息</a></li>
+                <li><a href="./proudct.html" class="menu-item">商品總覽</a>
+                    <ul>
+                        <li><a href="./proudct.html">所有商品</a></li>
+                        <li><a href="./productLimit.html">季節限定</a></li>
+                        <li><a href="./productBox.html">禮盒首選</a></li>
+                        <li><a href="./productCannele.html">獨創露露</a></li>
+                        <li><a href="./productCakes.html">香甜蛋糕</a></li>
+                    </ul>
+                </li>
+                <li><a href="./about.html" class="menu-item">關於玖荷家</a></li>
+                <li><a href="./dSchool.html" class="menu-item">甜點小學堂</a></li>
             </ul>
-          </li>
-          <li><a href="#" class="menu_item">關於玖荷家</a></li>
-          <li><a href="#" class="menu_item">甜點小學堂</a></li>
-        </ul>
-      </div>
-
-
-      <!-- 會員區 -->
-      <div class="menu_right">
-        <div class="side_bar">
-          <ul>
-            <li><a href="#" id="search_button"><img src="../images/icons/search.svg" alt="搜尋按鈕"></a></li>
-            <li><a href="#"><img src="../images/icons/user.svg" alt="會員管理按鈕"></a></li>
-            <li><a href="#"><img src="../images/icons/cart.svg" alt="購物車按鈕"></a></li>
-          </ul>
         </div>
-        <!-- 漢堡按鈕 -->
 
 
-        <div id="navWave">
-          <button class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </button>
-          <nav class="navigation">
-            <ul class="menu">
-              <li><a href="#">最新消息</a></li>
-              <li><a href="#">商品總覽</a></li>
-              <li><a href="#">關於我們</a></li>
-              <li><a href="#">甜點小學堂</a></li>
-              <li><a href="#">聯絡我們</a></li>
-            </ul>
-            <hr>
-            <ul class="member">
+        <div class="menu-right">
+            <!-- 會員區 -->
+            <div class="right-bar">
+                <!-- 搜尋列 -->
+                <form class="search-container">
+                    
+                    <input type="submit" id="search-submit" class="fa-solid fa-magnifying-glass" />
+                    <input id="search-box" type="text" class="search-box" name="q" />
+                    <label for="search-box">
+                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M25 25L19.9332 19.9332M19.9332 19.9332C20.7999 19.0665 21.4874 18.0375 21.9564 16.9051C22.4255 15.7727 22.6669 14.559 22.6669 13.3333C22.6669 12.1076 22.4255 10.8939 21.9564 9.76153C21.4874 8.62913 20.7999 7.6002 19.9332 6.7335C19.0665 5.8668 18.0375 5.17929 16.9051 4.71024C15.7727 4.24118 14.559 3.99976 13.3333 3.99976C12.1076 3.99976 10.8939 4.24118 9.76153 4.71024C8.62912 5.17929 7.6002 5.8668 6.7335 6.7335C4.98311 8.48388 3.99976 10.8579 3.99976 13.3333C3.99976 15.8088 4.98311 18.1828 6.7335 19.9332C8.48388 21.6836 10.8579 22.6669 13.3333 22.6669C15.8087 22.6669 18.1828 21.6836 19.9332 19.9332Z" stroke="#BC6161" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </label>
 
-              <li><a href="#"><img src="/images/icons/nav_user.svg" alt="member">會員中心</img></a></li>
-              <li><a href="#"><img src="/images/icons/nav_cart.svg" alt="shoppingCart">購物車</img></a></li>
+                </form>
+                <ul>
 
-            </ul>
-            <hr>
-            <ul class="icon">
-              <li><a href="#"><img src="/images/icons/nav_facebook.svg" alt="facebook"></a></li>
-              <li><a href="#"><img src="/images/icons/nav_instagram.svg" alt="instagram"></a></li>
-              <li><a href="#"><img src="/images/icons/nav_line.svg" alt="line"></a></li>
-              <li><a href="#"><img src="/images/icons/nav_map.svg" alt="line"></a></li>
-            </ul>
-            <!-- <ul class="menu">
-                <li><a href="#">會員登入</a></li>
-            </ul> -->
-          </nav>
+                    <li><a href="member.html"><img src="../images/icons/user.svg" alt="會員管理按鈕"></a></li>
+                    <li><a href="shoppingCart.html"><img src="../images/icons/cart.svg" alt="購物車按鈕"></a></li>
+                </ul>
+            </div>
+            <!-- 漢堡按鈕 -->
+
+
+            <div id="navWave">
+                <button class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <nav class="navigation">
+                    <ul class="nav-menu">
+                        <li><a href="news.html">最新消息</a></li>
+                        <li><a href="proudct.html">商品總覽</a></li>
+                        <li><a href="about.html">關於我們</a></li>
+                        <li><a href="dSchool.html">甜點小學堂</a></li>
+                        <li><a href="contactUs.html">聯絡我們</a></li>
+                    </ul>
+                    <hr>
+                    <ul class="member">
+
+                        <li><a href="member.html"><img src="/images/icons/nav_user.svg" alt="member">會員中心</img></a></li>
+                        <li><a href="shoppingCart.html"><img src="/images/icons/nav_cart.svg" alt="shoppingCart">購物車</img></a></li>
+
+                    </ul>
+                    <hr>
+                    <ul class="icon">
+                        <li><a href="https://www.facebook.com/JIUHOHOUSE/"><img src="/images/icons/nav_facebook.svg" alt="facebook"></a></li>
+                        <li><a href="https://www.instagram.com/jiuho_house/"><img src="/images/icons/nav_instagram.svg" alt="instagram"></a></li>
+                        <li><a href="https://line.me/R/ti/p/@123idpko"><img src="/images/icons/nav_line.svg" alt="line"></a></li>
+                        <li><a href="https://goo.gl/maps/bmFkMjtjk6P7WpR57"><img src="/images/icons/nav_map.svg" alt="googlemap"></a></li>
+                    </ul>
+                    <!-- <ul class="menu">
+            <li><a href="#">會員登入</a></li>
+        </ul> -->   
+                </nav>
+            </div>
         </div>
-      </div>
 
     </nav>
 
     </div>
-    <div class="sidebar">
-      <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-      <a href="https://line.me"><i class="fab fa-line"></i></a>
-      <a href="https://www.google.com/maps"><i class="fas fa-map-marker-alt"></i></a>
-    </div>
-
-  </header>
+    <div class="sm-side-bar">
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+        <a href="https://line.me"><i class="fab fa-line"></i></a>
+        <a href="https://www.google.com/maps"><i class="fas fa-map-marker-alt"></i></a>
+      </div>
+      
+</header>
 
   <main>
     <section class="info-line">
