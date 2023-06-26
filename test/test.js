@@ -87,17 +87,17 @@ class ESvideoPopup {
             this.closePop()
         })
 
-        // let iframe = document.createElement('iframe');
+        let iframe = document.createElement('iframe');
 
-        // callback;
+         callback;
     }
-    // closePop(){
-    //     this.newPop.classList.add('leave');
-    //     setTimeout(()=>{
-    //         this.newPop.remove()
-    //         this.isOpen = false;
-    //     }, 500)
-    // }
+     closePop(){
+        this.newPop.classList.add('leave');
+       setTimeout(()=>{
+            this.newPop.remove()
+            this.isOpen = false;
+        }, 500)
+    }
 };
 
 
