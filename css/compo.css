@@ -208,6 +208,7 @@ html :where(img) {
 }
 .menu-left ul{
 	display: flex;
+	border: none;
 }
 .menu-left a{
 	/* display: block; */
@@ -607,7 +608,9 @@ footer li{
 	}
 	#topbar{
 		width: 100%;
-		padding: 0;
+		padding:30px 20px 50px;
+		margin: 0;
+		
 	}
 	.menu-left{
 		display: none;

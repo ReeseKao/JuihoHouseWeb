@@ -324,7 +324,7 @@
 
 /* 產品標題清單 */
 .products_title {
-	font-family:'Comfortaa',sans-serif,
+	font-family:'Comfortaa',sans-serif;
 	font-weight: normal;
 	position: relative;
 }
