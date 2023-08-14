@@ -84,7 +84,7 @@ main{
 .swiper-container-wrapper--timeline .swiper-slide,
 .swiper-container-wrapper--timeline .swiper-slide-active {
   display: flex;
-  background: #fff; 
+  /* background: #fff;  */
   justify-content: center;
   border-radius: 10px;
 }
