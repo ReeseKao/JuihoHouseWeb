@@ -282,7 +282,7 @@ main{
 .store-concept .content .wrap {
 	width: 500px;
 	border-radius: 15px;
-	background-color: #fff;
+	/* background-color: #fff; */
 	overflow: hidden;
 	margin: 0 auto;
 }
